@@ -1,0 +1,32 @@
+{
+  "name": "react-hmr",
+  "version": "1.0.0",
+  "description": "React hot module loading example with webpack.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --inline --progress --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/asBrettisay/react-hmr.git"
+  },
+  "author": "Brett Caudill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asBrettisay/react-hmr/issues"
+  },
+  "homepage": "https://github.com/asBrettisay/react-hmr#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
